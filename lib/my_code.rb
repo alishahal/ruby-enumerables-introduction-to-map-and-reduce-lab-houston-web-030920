@@ -40,8 +40,8 @@ def map_to_square(source_array)
    final_array
 end
 
-def reduce_to_total(source_array, starting_point)
-   total=0
+def reduce_to_total(source_array, starting_point=0)
+   total= starting_point
    counter=0
    
 end 
