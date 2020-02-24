@@ -57,6 +57,7 @@ def reduce_to_all_true(source_array)
          source_array<<source_array[counter]
      else
          source_array=[]
+     counter+=1
     end
 end
 
